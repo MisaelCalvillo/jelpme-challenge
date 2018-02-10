@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 
 * {
   margin: 0;
@@ -12,6 +12,32 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px
+}
+
+input {
+  font-size: 18px;
+  background-color: #F1EFF2;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  color: #9032C8;
+  border: 3px solid rgba(0,0,0,0);
+  box-shadow: 0 0 6px rgba(0,0,0,0.9);
+}
+
+input:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
 div.logo img {
   width: 40%;
   margin-top: 50px;
@@ -23,30 +49,36 @@ div.logo img {
 
 /* LOGIN */
 
-div.login {
+div.login-container {
   width: 500px;
   height: 500px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(72, 110, 252);
+  background-color: rgb(144, 50, 200);
 
   /* Flexbox in login */
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 a.btn {
-  width: 300px;
-  height: 50px;
 
-  line-height: 50px;
-  text-align:center;
+  margin: 20px;
+  height: 100px;
+  flex-basis: auto;
+
+  line-height: 100px;
+  text-align: center;
+  text-decoration: none;
 
   border-radius: 5px;
   text-transform: uppercase;
   font-weight: bold;
+  font-size:24px;
 
   color: rgb(255, 255, 255);
   background-color: rgb(242,35,198);
+  box-shadow: 0 0 6px rgba(0,0,0,0.9);
   opacity: 1;
 }

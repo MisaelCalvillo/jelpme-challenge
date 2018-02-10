@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/* Estilos Generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: normal 16px roboto;
+  color: #555;
+}
+
+body {
+  background-color: #F8F6F8;
+}
+
+a {
+text-decoration: none;
+opacity: 0.75;
+color:   ;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  min-height: 400px;
+  background: #eee;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+a.btn {
+  border-radius: 4px;
+  margin: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  opacity: 1;
+  color: rgb(255,255,255);
+}
+
+a.confirmados {
+  background-color: rgb(144,50,200);
+  line-height: 100px;
+  width: 50%;
+  flex-basis: 100px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.9);
+}
+
+a.disponibles {
+  background-color: rgb(242,35,198);
+  line-height: 100px;
+  width: 50%;
+  flex-basis: 100px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.9);
+}
+
+a.cerrar {
+  color: rgb(238, 59, 94);
+}
+
+h1.welcome-message {
+  font: bold 60px "Open Sans", sans-serif;
+  margin-bottom: 15px;
+  color: rgb(25, 23, 26);
+}
